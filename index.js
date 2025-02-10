@@ -20,7 +20,7 @@ const deleteUserEvent = require("./routes/deleteUserEvent");
 const deleteUserTicket = require("./routes/deleteUserTicket");
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://event-mgmt-frontend-xi.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "HEAD", "PATCH", "OPTIONS"],
     credentials: true,
 };
